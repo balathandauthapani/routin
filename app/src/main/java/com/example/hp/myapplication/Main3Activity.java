@@ -16,9 +16,9 @@ public class Main3Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
         b2 = (Button)findViewById(R.id.b2);
         e2 = (EditText)findViewById(R.id.e2);
-        b2.setOnClickListener(new View.OnClickListener() -
+        b2.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(new View()) {
+            public void onClick(View v) {
                 Intent i2 = new Intent(getApplicationContext(),Main4Activity.class);
                 startActivity(i2);
             }

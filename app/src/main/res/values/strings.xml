@@ -13,10 +13,22 @@
     <string name="button1">verify</string>
     <string name="textview6">We have sent you a one time .Please enter it here</string>
     <string name="textview7">00:10</string>
-    <string name="radiogroup">Gender</string>
+    <string name="edittext4"></string>
     <string name="radiobutton">male</string>
     <string name="radiobutton2">female</string>
     <string name="edittext3"></string>
+    <string name="edittext5"></string>
+    <string name="textview8">sign up</string>
+    <string name="textview9">By signing up,I agree to your terms and conditions</string>
+    <string name="imageview2">location</string>
+    <string name="button2">Sign Up</string>
+    <string name="textview10">Choose your locality</string>
+    <string name="textview11"></string>
+    <string name="textview12">City</string>
+    <string name="edittext6"></string>
+    <string name="textview13">Locality</string>
+    <string name="edittext7"></string>
+    <string name="button3">Next</string>
 
 
 </resources>

@@ -2,51 +2,109 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/t9"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main4Activity">
 
     <RadioGroup
         android:id="@+id/rbg"
-        android:layout_width="339dp"
-        android:layout_height="147dp"
+        android:layout_width="312dp"
+        android:layout_height="126dp"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="62dp"
-        android:orientation="vertical">
+        android:layout_marginEnd="48dp"
+        android:layout_marginTop="111dp">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="89dp"
+            android:layout_marginTop="44dp"
+            android:layout_weight="1"
+            android:text="@string/radiobutton"
+            android:textSize="18sp" />
 
-            <RadioButton
-                android:id="@+id/radioButton2"
-                android:layout_width="283dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="RadioButton" />
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="34dp"
+            android:layout_weight="1"
+            android:text="@string/radiobutton2"
+            android:textSize="18sp" />
 
-            <RadioButton
-                android:id="@+id/radioButton3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="RadioButton" />
-        </LinearLayout>
     </RadioGroup>
 
     <EditText
         android:id="@+id/e3"
         android:layout_width="329dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="223dp"
+        android:layout_height="41dp"
+        android:layout_alignStart="@+id/e4"
+        android:layout_centerVertical="true"
         android:ems="10"
         android:hint="enter your name"
         android:inputType="textPersonName"
         android:text="@string/edittext3"
         android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="210dp"
+        android:ems="10"
+        android:hint="enter your email-id"
+        android:inputType="textPersonName"
+        android:text="@string/edittext4" />
+
+    <EditText
+        android:id="@+id/e5"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="151dp"
+        android:ems="10"
+        android:hint="Referral code "
+        android:inputType="textPersonName"
+        android:text="@string/edittext5" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="42dp"
+        android:text="@string/textview9"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="234dp"
+        android:layout_height="72dp"
+        android:layout_above="@+id/rbg"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-107dp"
+        android:layout_marginStart="58dp"
+        app:srcCompat="@drawable/male" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:text="@string/button2" />
 
 </RelativeLayout>
