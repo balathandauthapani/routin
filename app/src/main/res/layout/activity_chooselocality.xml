@@ -4,28 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bck"
     tools:context=".chooselocality">
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="201dp"
         android:layout_height="132dp"
+        android:layout_above="@+id/t12"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
         android:layout_marginEnd="77dp"
-        android:layout_marginTop="125dp"
         android:contentDescription="@string/imageview2"
-        app:srcCompat="@drawable/places" />
+        app:srcCompat="@drawable/places"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="77dp" />
 
     <TextView
         android:id="@+id/t10"
         android:layout_width="match_parent"
         android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:background="@android:color/holo_orange_dark"
-        android:text="@string/edittext7"
-        android:textSize="30sp" />
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/bck"
+        android:text="@string/textview10"
+        android:textSize="30sp"
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/t11"
@@ -33,6 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/e7"
         android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/e7"
         android:layout_marginTop="85dp"
         android:text="@string/textview11" />
 
@@ -40,22 +48,24 @@
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/imageView2"
-        android:layout_marginBottom="210dp"
-        android:contentDescription="@string/edittext6"
+        android:layout_below="@+id/t12"
         android:ems="10"
-        android:hint="enter your city"
+        android:hint="@string/edittext6"
         android:inputType="textPersonName"
-        android:text="@string/edittext6" />
+        android:text="@string/edittext6"
+        android:layout_alignLeft="@+id/imageView2" />
 
     <TextView
         android:id="@+id/t12"
         android:layout_width="65dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
         android:layout_marginStart="50dp"
+        android:background="@android:color/holo_red_light"
         android:text="@string/textview12"
         android:textSize="24sp" />
 
@@ -65,9 +75,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/t12"
-        android:layout_marginBottom="166dp"
+        android:layout_marginBottom="154dp"
+        android:background="@android:color/holo_red_light"
         android:text="@string/textview10"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:layout_alignLeft="@+id/t12" />
 
     <EditText
         android:id="@+id/e7"
@@ -75,12 +87,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/imageView2"
-        android:layout_marginBottom="98dp"
-        android:contentDescription="@string/edittext7"
+        android:layout_marginBottom="92dp"
         android:ems="10"
-        android:hint="choose your locality"
+        android:hint="@string/edittext7"
         android:inputType="textPersonName"
-        android:text="@string/edittext6" />
+        android:text="@string/edittext7"
+        android:layout_alignLeft="@+id/imageView2" />
 
     <Button
         android:id="@+id/button"
@@ -88,9 +100,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="28dp"
-        android:layout_marginEnd="133dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginRight="135dp"
+        android:background="@android:color/holo_red_dark"
         android:text="@string/button3"
         android:textSize="18sp" />
-
 </RelativeLayout>

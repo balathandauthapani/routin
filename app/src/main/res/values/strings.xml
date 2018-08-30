@@ -25,10 +25,62 @@
     <string name="textview10">Choose your locality</string>
     <string name="textview11"></string>
     <string name="textview12">City</string>
-    <string name="edittext6"></string>
+    <string name="edittext6">enter your city</string>
+    <string name="textview14">Milk</string>
+    <string name="button5">Standard(Toned)</string>
+    <string name="button6">Low
+    Fat</string>
+    <string name="button7">Full Icream</string>
+    <string name="button8">Organic Milk</string>
+    <string name="button9">GoatMilk
+    </string>
+    <string name="textview15">All</string>
+    <string name="textview16">Alepa</string>
+    <string name="textview17">Dairy</string>
+
+    <string name="textview18">Fruits</string>
+    <string name="textview19">Basta Goat Milk</string>
+    <string name="textview20">500ml</string>
+    <string name="textview21">₹.150.00</string>
+
+
     <string name="textview13">Locality</string>
-    <string name="edittext7"></string>
+    <string name="edittext7">enter your location</string>
     <string name="button3">Next</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="edittext10"></string>
+    <string name="textview25">Ghandi street</string>
+    <string name="textview26">Nehru street</string>
+    <string name="textview27">LalBahaDur street</string>
+    <string name="textview28">Busy street</string>
+    <string name="textview29">Kamatchi street</string>
+    <string name="enter_your_mobile_number">enter your mobile number</string>
+    <string name="textview30"></string>
+    <string name="textview31">Deepika.C</string>
+    <string name="textview32">6383388607</string>
+    <string name="textview33">deepika.chinnasamy1998@gmail.com</string>
+    <string name="button11">Edit</string>
+    <string name="button12">LogOut</string>
+    <string name="textview34">Delivery History and Wallet</string>
+    <string name="button13">Recharge</string>
+    <string name="textview35">Your Wallet Balance</string>
+    <string name="textview36">₹.0.00</string>
+    <string name="textview37">Delivery amount for next delivery is ₹.0.00</string>
+    <string name="textview38">Doodh points:0.00</string>
+    <string name="textview39">Choose Date For Delivery</string>
+    <string name="button14">Next</string>
+    <string name="textview40">Set Schedule</string>
+    <string name="button15">Week</string>
+    <string name="Button16">Month</string>
+    <string name="radiobutton3">Everyday</string>
+    <string name="radiobutton5">AlternateDays</string>
+    <string name="button17">Confirm</string>
+    <string name="no">do not ring</string>
+    <string name="ring">ring bell</string>
+    <string name="leave">Leave bag out</string>
+    <string name="time">5.00-7.30am delivery</string>
+    <string name="done">Done</string>
+    <string name="image">image</string>
 
 
 </resources>

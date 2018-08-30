@@ -6,24 +6,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class chooselocality extends AppCompatActivity {
-    Button b3;
+public class choose extends AppCompatActivity {
+    Button b14;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chooselocality);
-        b3=(Button)findViewById(R.id.button);
-
-
-        b3.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_choose);
+        b14=(Button)findViewById(R.id.b14);
+        b14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i4=new Intent(chooselocality.this,street.class);
-                startActivity(i4);
+                Intent i6=new Intent(getApplicationContext(),schedule.class);
+                startActivity(i6);
             }
         });
-
-
     }
 }

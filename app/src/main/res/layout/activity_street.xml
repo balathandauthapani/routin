@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    tools:context=".street">
+
+
+    <SearchView
+        android:id="@+id/s5"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#f01a53" />
+
+    <EditText
+        android:id="@+id/e10"
+        android:layout_width="317dp"
+        android:layout_height="56dp"
+        android:layout_alignBottom="@+id/e10"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:ems="10"
+        android:hint="type your location"
+        android:inputType="textPersonName"
+        android:text="@string/edittext10"
+        tools:ignore="NotSibling" />
+
+    <TextView
+        android:id="@+id/t25"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="207dp"
+        android:text="@string/textview25"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/t26"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/t25"
+        android:text="@string/textview26"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/t26"
+        android:text="@string/textview29"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        tools:ignore="UnknownId"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="82dp"
+        android:text="@string/textview28"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/t27"
+        android:layout_width="378dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="144dp"
+        android:text="@string/textview27"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:layout_alignParentLeft="true" />
+
+    <ImageButton
+        android:id="@+id/iv3"
+        android:layout_width="51dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/black"
+        app:srcCompat="@android:drawable/ic_menu_send"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

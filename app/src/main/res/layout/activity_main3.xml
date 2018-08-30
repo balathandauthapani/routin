@@ -5,6 +5,7 @@
     android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bck"
     tools:context=".Main3Activity">
 
     <TextView
@@ -14,8 +15,10 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="38dp"
+        android:background="#ff9040"
         android:text="@string/textview5"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/b2"
@@ -24,30 +27,36 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="82dp"
+        android:background="@android:color/holo_red_dark"
         android:text="@string/button1"
-        android:textSize="34sp" />
+        android:textSize="34sp"
+        android:textStyle="italic" />
 
     <EditText
         android:id="@+id/e2"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
         android:layout_alignEnd="@+id/t4"
         android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/t4"
         android:layout_marginTop="106dp"
         android:ems="10"
         android:hint="enter the otp values"
         android:inputType="number"
         android:maxLength="4"
         android:text="@string/edittext2"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/t5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
         android:layout_marginTop="169dp"
         android:width="45dp"
         android:text="@string/textview"
@@ -58,20 +67,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="188dp"
         android:text="@string/textview6"
         android:textAlignment="center"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/t7"
-        android:layout_width="wrap_content"
+        android:layout_width="226dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="148dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
         android:layout_marginTop="217dp"
-        android:text="@string/textview7"
         android:textSize="24sp" />
 </RelativeLayout>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bck"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,18 +16,22 @@
         android:layout_marginTop="52dp"
         android:text="@string/textview2"
         android:textAlignment="center"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/t1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
         android:layout_marginStart="56dp"
         android:layout_marginTop="133dp"
         android:text="@string/textview1"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textStyle="italic" />
 
     <EditText
         android:id="@+id/e1"
@@ -37,9 +42,10 @@
         android:layout_marginTop="220dp"
         android:ems="10"
         android:hint="enter mobile number"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:maxLength="10"
-        android:text="@string/edittext" />
+        android:text="@string/edittext"
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/t3"
@@ -50,7 +56,9 @@
         android:layout_marginBottom="260dp"
         android:layout_marginEnd="26dp"
         android:inputType="number"
-        android:text="@string/textview3" />
+        android:text="@string/textview3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp" />
 
     <TextView
         android:id="@+id/t4"
@@ -61,7 +69,8 @@
         android:layout_marginBottom="202dp"
         android:text="@string/textview4"
         android:textAlignment="center"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
 
     <Button
         android:id="@+id/b1"
@@ -70,6 +79,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="98dp"
+        android:background="@android:color/holo_red_dark"
         android:text="@string/button"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:textStyle="italic" />
 </RelativeLayout>

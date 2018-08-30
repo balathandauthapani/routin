@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hp.myapplication">
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,8 +25,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".Main3Activity" />
+        <activity android:name=".chooselocality" />
         <activity android:name=".Main4Activity" />
-        <activity android:name=".chooselocality"></activity>
+        <activity android:name=".milk" />
+        <activity android:name=".street" />
+        <activity android:name=".profileinfo" />
+        <activity android:name=".delivery" />
+        <activity android:name=".choose" />
+        <activity android:name=".schedule" />
+        <activity android:name=".constraints"></activity>
     </application>
 
 </manifest>

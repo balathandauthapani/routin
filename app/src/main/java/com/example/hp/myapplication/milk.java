@@ -4,26 +4,21 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageView;
 
-public class chooselocality extends AppCompatActivity {
-    Button b3;
-
+public class milk extends AppCompatActivity {
+     ImageView i4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chooselocality);
-        b3=(Button)findViewById(R.id.button);
-
-
-        b3.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_milk);
+        i4=(ImageView)findViewById(R.id.iv4) ;
+        i4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i4=new Intent(chooselocality.this,street.class);
-                startActivity(i4);
+                Intent i6 = new Intent(milk.this,choose.class);
+                startActivity(i6);
             }
         });
-
-
     }
 }
